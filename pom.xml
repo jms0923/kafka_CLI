@@ -40,7 +40,6 @@
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>2.5.1</version>
                     <configuration>
-                        <mainClass>test.ProducerTest</mainClass>
                         <source>1.7</source>
                         <target>1.7</target>
                     </configuration>
