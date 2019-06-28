@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2693a56-d290-4649-b8ea-3d180846af85" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/test/HighLevelConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/HighLevelConsumer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -55,11 +54,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/test/HighLevelConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="31" column="45" lean-forward="true" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+            <state relative-caret-position="95">
+              <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1205#1222#0" expanded="true" />
+                <element signature="e#1595#1904#0" expanded="true" />
                 <element signature="e#1903#1904#0" expanded="true" />
               </folding>
             </state>
@@ -97,8 +97,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="192" />
-    <option name="y" value="-8" />
+    <option name="x" value="2526" />
+    <option name="y" value="-21" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -157,7 +157,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561711560392" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561711848994" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -221,15 +221,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561689404332</updated>
-      <workItem from="1561689408580" duration="13912000" />
+      <workItem from="1561689408580" duration="14273000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13912000" />
+    <option name="totallyTimeSpent" value="14273000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="1912" y="-17" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -335,11 +335,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/test/HighLevelConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="31" column="45" lean-forward="true" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+        <state relative-caret-position="95">
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1205#1222#0" expanded="true" />
+            <element signature="e#1595#1904#0" expanded="true" />
             <element signature="e#1903#1904#0" expanded="true" />
           </folding>
         </state>

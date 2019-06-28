@@ -18,7 +18,7 @@ public class HighLevelConsumer {
     private static final int NUM_THREADS = 20;
     public static void main(String[] args) throws Exception {
         Properties props = new Properties();
-        props.put("group.id", "test-group");
+        props.put("group.id", "test-consumer-group");
         props.put("zookeeper.connect", "zookeeper2:2181");
         props.put("auto.commit.interval.ms", "1000");
         ConsumerConfig consumerConfig = new ConsumerConfig(props);
