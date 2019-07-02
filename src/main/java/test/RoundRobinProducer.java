@@ -12,7 +12,7 @@ import kafka.utils.VerifiableProperties;
 public class RoundRobinProducer {
     public static void main(String[] args) throws Exception {
         Properties props = new Properties();
-        props.put("metadata.broker.list", "localhost:9092");
+        props.put("metadata.broker.list", "zookeeper2:9092");
         props.put("serializer.class", "kafka.serializer.StringEncoder");
         props.put("partitioner.class", RoundRobinPartitioner.class.getName());
         ProducerConfig producerConfig = new ProducerConfig(props);
