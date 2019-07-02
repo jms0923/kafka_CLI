@@ -10,7 +10,7 @@ import kafka.producer.ProducerConfig;
 public class ProducerTest {
     public static void main(String[] args) throws Exception {
         Properties props = new Properties();
-        props.put("metadata.broker.list", "zookeeper2:9092");
+        props.put("metadata.broker.list", "192.168.150.26:9092");
         props.put("serializer.class", "kafka.serializer.StringEncoder");
 
         ProducerConfig producerConfig = new ProducerConfig(props);

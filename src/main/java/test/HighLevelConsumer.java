@@ -19,7 +19,7 @@ public class HighLevelConsumer {
     public static void main(String[] args) throws Exception {
         Properties props = new Properties();
         props.put("group.id", "test-consumer-group");
-        props.put("zookeeper.connect", "zookeeper2:2181");
+        props.put("zookeeper.connect", "192.168.150.26:2181");
         props.put("auto.commit.interval.ms", "1000");
         ConsumerConfig consumerConfig = new ConsumerConfig(props);
         ConsumerConnector consumer = Consumer.createJavaConsumerConnector(consumerConfig);
