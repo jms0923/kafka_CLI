@@ -25,6 +25,7 @@ public class RoundRobinProducer {
     public static class RoundRobinPartitioner implements Partitioner {
         private AtomicInteger n = new AtomicInteger(0);
         public RoundRobinPartitioner(VerifiableProperties props) {
+
         }
         @Override
         public int partition(Object key, int numPartitions) {
